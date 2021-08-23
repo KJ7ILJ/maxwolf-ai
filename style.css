@@ -1,0 +1,150 @@
+body {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+h1 {
+	color: #FFFFFF;
+	text-align: center;
+    font-family: Hack
+}
+
+h2 {
+	background-color: #000000;
+	color: #FFFFFF;
+    font-family: Hack
+}
+
+h4 {
+	background-color: #000000;
+	color: #FFFFFF;
+    font-family: Hack
+}
+
+p {
+	
+	text-align: left;
+    font-size: 18px;
+    font-family: Hack;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color:#FFCC00; 
+    font-size: 18px;
+    font-family: Hack;
+}
+a:link { 
+    text-decoration: none; 
+    color:#FFCC00; 
+    font-size: 18px;
+    font-family: Hack;
+}
+
+#sidebar {
+    float: left;
+    width: 20px;
+    background: #242322;
+  }
+
+.header{
+	text-align: center;
+	padding: 20px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+}
+
+.fit-image{
+width: 100%;
+object-fit: cover;
+}
+
+.rcorners1 {
+  border-radius: 25px;
+  border: 2px solid #FFFFFF;
+  padding: 20px;
+  width: auto;
+  height: auto;
+}
+
+.column {
+	float: left;
+}
+
+.column.side {
+	width:20%
+}
+
+.column.middle {
+	width: 80%;
+    margin-left: 1%;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #000000;
+    color:#FFCC00;
+    
+    font-family: Hack;
+    font-size: 18px;
+    border: none;
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: #00b4e6;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  
+  /* Show the dropdown menu on hover */
+  /*.dropdown:hover .dropdown-content {display: contents;}*/
+  
+  .show {display: contents;}
+
+pre{
+    counter-reset: line;
+}
+code{
+    counter-increment: line;
+}
+code:before{
+    content: counter(line);
+}
+code:before{
+    -webkit-user-select: none;
+}
+
+@font-face {
+    font-family: 'Hack';
+    src: url('hack-font/fonts/hack-regular.woff2?sha=3114f1256') format('woff2'), url('hack-font/fonts/hack-regular.woff?sha=3114f1256') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
